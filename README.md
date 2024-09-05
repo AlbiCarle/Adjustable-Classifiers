@@ -24,6 +24,13 @@ Then, exploiting _probabilistic_scaling_ technique (borrowed from [order statist
 
 This means that the new classifier, $\mathcal{S}_\varepsilon$, is able to maintain the false positive rate (FPR) bounded by $\varepsilon$.
 
+## Content of the Repository
+
+This repository contains the code for the experiments to build probabilistic safety regions using adjustable classifiers.
+
+The following matlab scripts are available:
+
+- ``Adjustable SVM``: it contains the code for the implementation of adjustable SVDD $f_{\boldsymbol{\theta}}(\boldsymbol{x},\rho) = \norm{\varphi(\boldsymbol{x})-\boldsymbol{w}}^2 - (R^2 - \rho)$
 ## Link with Deep Probabilistic Scaling
 
-Link with Deep-Probabilistic-Scaling <https://github.com/AlbiCarle/Deep-Probabilistic-Scaling>
+Link to a Github Repo where _adjustable neural network_ model is implemented: <https://github.com/AlbiCarle/Deep-Probabilistic-Scaling>.
