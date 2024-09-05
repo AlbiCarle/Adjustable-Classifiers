@@ -1,4 +1,4 @@
-# Probabilistic Scaling for Misclassification Error Control in Binary Classification
+# Misclassification Error Control in Binary Classification through Probabilistic Scaling
 
 ![Example Image](Images/scalable.png)
 
