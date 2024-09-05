@@ -19,9 +19,11 @@ The model works defining an _adjustable classifier_ as a classic classifier wher
 Then, exploiting _probabilistic_scaling_ technique (borrowed from [order statistics](https://en.wikipedia.org/wiki/Order_statistic)) it is possible to define with probability no smaller than $1-\delta$ a special region $\mathcal{S}_\varepsilon$ such that
 
 <div style="text-align:center;">
-    <img src="Images/PSR.png" width="400">
+    <img src="Images/PSR.png" width="300">
 </div>
 
-## Adjustable Classifiers
+This means that the new classifier, $\mathcal{S}_\varepsilon$, is able to maintain the false positive rate (FPR) bounded by $\varepsilon$.
+
+## Link with Deep Probabilistic Scaling
 
 Link with Deep-Probabilistic-Scaling <https://github.com/AlbiCarle/Deep-Probabilistic-Scaling>
