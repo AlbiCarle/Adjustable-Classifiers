@@ -10,7 +10,12 @@ error of the other classes. The error control of such a design phase is
 often done in a heuristic manner. 
 Thus, this we define the concept of ``probabilistic safety region`` to describe a subset of the input space in which the number of misclassified instances is probabilistically controlled. To achieve this goal, we introduce a new class of classifiers, namely ``adjustable classifiers`` that make the classical classifiers "more elastic", allowing to control the classification boundary.
 
-## Probabilistic Safety Regions
+The model works defining an _adjustable classifier_ as a classic classifier where an scalar  parameter $\rho$ is added to the classifier predictor function
+
+<div style="text-align:center;">
+    <img src="binary_CNN.png" width="600">
+</div>
+
 
 ## Adjustable Classifiers
 
