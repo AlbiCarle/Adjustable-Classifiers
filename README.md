@@ -13,7 +13,7 @@ Thus, this we define the concept of ``probabilistic safety region`` to describe 
 The model works defining an _adjustable classifier_ as a classic classifier where an scalar  parameter $\rho$ is added to the classifier predictor function
 
 <div style="text-align:center;">
-    <img src="Images/scla.png" width="600">
+    <img src="Images/scla.png" width="400">
 </div>
 
 
