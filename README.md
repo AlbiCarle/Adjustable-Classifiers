@@ -16,6 +16,11 @@ The model works defining an _adjustable classifier_ as a classic classifier wher
     <img src="Images/scla.png" width="400">
 </div>
 
+Then, exploiting _probabilistic_scaling_ technique (borrowed from [order statistics](https://en.wikipedia.org/wiki/Order_statistic)) it is possible to define with probability no smaller than $1-\delta$ a special region $\mathcal{S}_\varepsilon$ such that
+
+<div style="text-align:center;">
+    <img src="Images/scla.png" width="400">
+</div>
 
 ## Adjustable Classifiers
 
