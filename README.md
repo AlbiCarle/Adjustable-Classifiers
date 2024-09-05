@@ -1,5 +1,7 @@
 # Adjustable-Classifiers
 
+![Example Image](salable.png)
+
 Supervised classification recognizes patterns in the
 data to separate classes of behaviors. Canonical solutions
 contain misclassification errors that are intrinsic to the numerical approximating nature of
