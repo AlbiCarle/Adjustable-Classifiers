@@ -33,6 +33,18 @@ The following matlab scripts are available:
 - ``Adjustable SVDD``: it contains the code for the implementation of adjustable SVDD $f_{\boldsymbol{\theta}}(\boldsymbol{x},\rho) = ||\varphi(\boldsymbol{x})-\boldsymbol{w}||^2 - (R^2 - \rho)$. 
 - ``Adjustable SVM``: it contains the code for the implementation of adjustable SVM $f_{\boldsymbol{\theta}}(\boldsymbol{x},\rho) = \boldsymbol{w}^\top\varphi(\boldsymbol{x}) - b + \rho$.
 -  ``Adjustable LR``: it contains the code for the implementation of adjustable Logistic Regression $f_{\boldsymbol{\theta}}(\boldsymbol{x},\rho) = \frac{1}{2}-\frac{1}{1+e^{\boldsymbol{w}^\top\varphi(\boldsymbol{x})-b + \rho }}$
+
+Moreover in the folder ``Experiments`` examples on synthetic dataset and a real-world application (Vehicl Platooning dataset) are reported.
+
 ## Link with Deep Probabilistic Scaling
 
 Link to a Github Repo where _adjustable neural network_ model is implemented: <https://github.com/AlbiCarle/Deep-Probabilistic-Scaling>.
+
+## Link with Deep Probabilistic Scaling
+
+Concept paper 
+
+Carlevaro, Alberto, et al. "Probabilistic Safety Regions Via Finite Families of Scalable Classifiers." arXiv preprint arXiv:2309.04627 (2023)
+
+and under submission for IEEE Transactions on Neural Networks and Learning Systems.
+
