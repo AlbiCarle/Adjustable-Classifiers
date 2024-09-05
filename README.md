@@ -1,6 +1,6 @@
 # Adjustable-Classifiers
 
-![Example Image](salable.png)
+![Example Image](Images/salable.png)
 
 Supervised classification recognizes patterns in the
 data to separate classes of behaviors. Canonical solutions
