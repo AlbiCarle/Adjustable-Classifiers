@@ -1,0 +1,34 @@
+function p = plot_SSVDD(Xtr, Ytr, Xvl, alpha, R, rho, kernel, param, eta, mycolor)
+
+dimGrid=100; % dimGrid*dimGrid
+
+[K1, Z1] = meshgrid(linspace(min(Xvl(:,1))-1, max(Xvl(:,1))+1,dimGrid),...
+                    linspace(min(Xvl(:,2))-1, max(Xvl(:,2))+1,dimGrid));
+
+x=linspace(min(Xvl(:,1)), max(Xvl(:,1)), dimGrid);
+y=linspace(min(Xvl(:,2)), max(Xvl(:,2)), dimGrid);
+   
+K1=K1(:); Z1=Z1(:);
+E=[K1 Z1];
+
+if isequal(kernel, 'linear')
+
+    a = eta*(alpha'*diag(Ytr))*Xtr;
+
+    p = circle(a(:,1),a(:,2),sqrt(abs(R^2 - rho)), mycolor);
+
+    axis equal
+else
+
+    y_pred = SSVDD_Test(Xtr, Ytr, E, alpha, R, rho, kernel, param, eta);
+    
+    %axis equal
+
+    p = contourf(x, y, reshape(y_pred,numel(y),numel(x)),[0.9999 0.9999] , ...
+    'linecolor', mycolor, 'LineWidth', 2,'FaceAlpha', 0.001);
+    
+    mycolormap = [mycolor(1)*ones(256,1), mycolor(2)*ones(256,1), mycolor(3)*ones(256,1)];
+    
+    colormap(mycolormap)
+        
+end
