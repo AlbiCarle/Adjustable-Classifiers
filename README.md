@@ -1,6 +1,6 @@
 # Misclassification Error Control in Binary Classification through Probabilistic Scaling
 
-![Example Image](Images/Screenshot 2024-09-30 at 12.15.10.png)
+![Example Image](Images/adjustable.png)
 
 Supervised classification recognizes patterns in the
 data to separate classes of behaviors. Canonical solutions
